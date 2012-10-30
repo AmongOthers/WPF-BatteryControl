@@ -1,0 +1,8 @@
+﻿<Window x:Class="Battery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" xmlns:my="clr-namespace:Battery">
+    <Grid>
+        <my:BatteryRecharging  Height="235" HorizontalAlignment="Left" Margin="52,20,0,0" x:Name="battery" VerticalAlignment="Top" Width="400" />
+    </Grid>
+</Window>
